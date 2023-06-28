@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Tic Tac Toe",
+    "desc": "This project is a console based game similar to tic-tac-toe",
+    "image": "mqdefault",
+    "category": "C++",
+    "links": {
+      "code": "https://github.com/EsmeAbha/Tic-Tac-Toe"
+    }
+  },
+  {
+    "name": "Cine Tickets",
+    "desc": "The goal of Cine Tickets is to book movie tickets for a particular movie ,movie show time, hall theatre location, seat type and seat designation. It manages all the details about the customer, ticket price and hall theatre location.",
+    "image": "cinetickets",
+    "category": "Java",
+    "links": {
+          "code": "https://github.com/EsmeAbha/CineTickets"
+    }
+  },
+  {
+    "name": "Lift",
+    "desc": "Lift is a ridesharing management company. Vehicles from other companies are hired under Lift. The lift has its own vehicles, own drivers, and own garage. Other companies must pay a percentage of the income of their vehicles as those companies are under Lift and are used as Lifts vehicles. ",
+    "image": "portfolio3",
+    "category": "Database",
+    "links": {
+      "code": "https://github.com/EsmeAbha/Ride-sharing-database-management-system"
+    }
+  },
+  {
+    "name": "Nexa",
+    "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
+    "image": "weatherlyandroid",
+    "category": "C#",
+    "links": {
+      "code": "#"
+    }
+  },
+  
+  {
+    "name": "Portfolio Website",
+    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "port",
+    "category": "basicweb",
+    "links": {
+      "code": "#"
+    }
+  }
+]
