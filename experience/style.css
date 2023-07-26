@@ -16,12 +16,12 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background: #f7f7f7;
+  background: #ffffff;
   font-family: 'Poppins', sans-serif;
 }
 
 *::selection{
-  background: #2b3dda;
+  background: #FFABAB;
   color: #fff;
 }
 
@@ -33,10 +33,10 @@ html::-webkit-scrollbar{
   width: .8rem;
 }
 html::-webkit-scrollbar-track{
-  background: rgb(235, 202, 245);
+  background: rgb(235, 190, 213);
 }
 html::-webkit-scrollbar-thumb{
-  background: #420177;
+  background: #ff8dbe;
 }
 
 /* navbar starts */
@@ -49,8 +49,8 @@ header{
   justify-content: space-between;
   padding: 1.7rem 10%;
   height: 6.5rem;
-  background-color: #fff;
-  box-shadow: 0 1px 4px rgba(146,161,176,.3);
+  background-color: #ffe0e9;
+  box-shadow: 0 1px 4px rgba(116,95,101,.3);
 }
 section{
   min-height: 100vh;
@@ -58,24 +58,24 @@ section{
 }
 .heading{
   font-size: 3.5rem;
-  color: rgb(20, 20, 20);
+  color: rgb(32, 32, 32);
   font-weight: 800;
   text-align: center;
 }
 .heading span{
-  color: rgb(115, 3, 167);
+  color:#e05780;
 }
 header .logo{
   font-size: 1.9rem;
   font-weight: 800;
   text-decoration: none;
-  color: #0E2431;
+  color:#310e1f ;
 }
 header .logo i {
   font-size: 2.2rem;
 }
 header .logo:hover {
-  color: #fc8c05;
+  color: #e05780;
 }
 header .navbar ul{
   list-style: none;
@@ -88,15 +88,15 @@ header .navbar li{
 }
 header .navbar ul li a{
   font-size: 1.57rem;
-  color: #0E2431;
-  font-weight: 600;
+  color: #8a2846;
+   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.04rem;
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover{
-  color: #011aff;
-  border-bottom: .2rem solid #011aff;
+  color: #ff7aa2;
+  border-bottom: .2rem solid #ff7aa2;
   padding: .5rem 0;
 }
 /* navbar ends */
@@ -105,7 +105,7 @@ header .navbar ul li a:hover{
 #menu{
   font-size: 3rem;
   cursor: pointer;
-  color: rgb(24, 2, 63);
+  color: #8a2846;
   display: none;
 }
 @media(max-width:768px){
@@ -119,7 +119,7 @@ header .navbar ul li a:hover{
     height: 100%;
     text-align: left;
     align-items: flex-start;
-    background-color: #0e0f31;
+    background-color: #602437;
   }
   header .navbar ul{
     flex-flow: column;
@@ -136,15 +136,15 @@ header .navbar ul li a:hover{
     display: block;
     padding: 1rem;
     text-align: left;
-    color: #fff;
+    color: #ffe0e9;
     font-size: 2rem;
   }
   header .navbar ul li a.active,
   header .navbar ul li a:hover{
     padding: 1rem;
-    color: #fff;
+    color: #ffe0e9;
     border-radius: .5rem;
-    border-bottom: .5rem solid #011aff;
+    border-bottom: .5rem solid #FCC8D1;
   }
   .fa-times{
     transform: rotate(180deg);
@@ -173,7 +173,7 @@ header .navbar ul li a:hover{
   content: '';
   position: absolute;
   width: 6px;
-  background: #020133;
+  background: #522e38;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -193,15 +193,15 @@ header .navbar ul li a:hover{
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: rgb(255, 255, 255);
-  border: 4px solid #f68c09;
+  background-color: #ffe0e9;
+  border: 4px solid #FCC8D1;
   top: 15px;
   border-radius: 50%;
   z-index: 100;
   font-size: 1.89rem;
   text-align: center;
   font-weight: 600;
-  color:#02094b;
+  color:#7e0443;
   font-family: 'Font Awesome\ 5 Free';
 }
 .experience .left {
@@ -219,9 +219,9 @@ header .navbar ul li a:hover{
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #f68c09;
+  border: medium solid #ff7aa2;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #f68c09;
+  border-color: transparent transparent transparent #ff7aa2;
 }
 /* arrows pointing left  */
 .experience .right::before {
@@ -232,15 +232,15 @@ header .navbar ul li a:hover{
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid #f68c09;
+  border: medium solid #ff7aa2;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #f68c09 transparent transparent;
+  border-color: transparent #ff7aa2 transparent transparent;
 }
 .experience .right::after {
   left: -16px;
 }
 .experience .content {
-  background-color: #f68c09;
+  background-color: #ff7aa2;
   position: relative;
   border-radius: 6px;
 }
@@ -272,9 +272,9 @@ header .navbar ul li a:hover{
   padding: 1.6rem 3rem;
   border-radius: .5em;
   transition: 0.5s;
-  color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
+  color: #ffe0e9;
+  background: #522e38;
+  box-shadow: 0px 5px 10px rgba(184, 39, 90, 0.6);
   text-align: center;
 }
 .morebtn .btn span {
@@ -288,7 +288,7 @@ header .navbar ul li a:hover{
   transition: 0.3s;
 }
 .morebtn .btn:hover{
-  background: #1a047e;
+  background: #e05780;
 }
 .morebtn .btn:hover i {
   transform: translateX(-8px);
@@ -306,9 +306,9 @@ header .navbar ul li a:hover{
   }
   .experience .container::before {
   left: 60px;
-  border: medium solid #f68c09;
+  border: medium solid #f4638c;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #f68c09 transparent transparent;
+  border-color: transparent #f4638c transparent transparent;
   }
   .experience .left::after {
     left: 15px;
@@ -331,7 +331,7 @@ header .navbar ul li a:hover{
 .footer{
   min-height: auto;
   padding-top: 0;
-  background: rgb(0, 1, 43);
+  background: #522e38;
 }
 .footer .box-container{
   display: flex;
@@ -344,19 +344,19 @@ header .navbar ul li a:hover{
 }
 .footer .box-container .box h3{
   font-size: 2.5rem;
-  color: #fff;
+  color: #ffe0e9;
   padding-bottom: 1rem;
   font-weight: normal;
 }
 .footer .box-container .box p{
   font-size: 1.5rem;
-  color: #ccc;
+  color: #ffe0e9;
   padding: .7rem 0;
   text-transform: none;
 }
 .footer .box-container .box p i{
   padding-right: 1rem;
-  color: #ffae00;
+  color: #FCC8D1;
 }
 .footer .box-container .box a{
   font-size: 1.5rem;
@@ -365,7 +365,7 @@ header .navbar ul li a:hover{
   display: block;
 }
 .footer .box-container .box a:hover{
-  color: #ffae00;
+  color: #FCC8D1;
 }
 .footer .box-container .box .share{
   display: flex;
@@ -381,15 +381,15 @@ header .navbar ul li a:hover{
   font-size: 1.7rem;
   margin-right: 1rem;
   transition: .2s;
-  background: rgb(230, 230, 230);
-  color: #02094b;
+  background: rgb(247, 204, 204);
+  color: #7e0443;
   border: none;
 }
 .footer .box-container .box .share a:hover{
   background: transparent;
   transform: scale(0.98);
-  border: .1rem solid rgb(180, 178, 178);
-  color: #ffae00;
+  border: .1rem solid rgb(247, 204, 204);
+  color: #FCC8D1;
 }
 .footer .credit{
   padding: 1rem 0 0 0;
@@ -401,7 +401,7 @@ header .navbar ul li a:hover{
   border-top: .1rem solid #fff3;
 }
 .footer .credit a{
-  color: #ffae00;
+  color: #FCC8D1;
 }
 .footer .fa{
     color: #E90606;
@@ -454,8 +454,8 @@ header .navbar ul li a:hover{
   right: 2rem;
   padding: 1rem 1.5rem;
   font-size: 2rem;
-  background: #ffae00;
-  color: rgb(13, 0, 44);
+  background: #ff7aa2;
+  color: rgb(44, 0, 24);
   border-radius: 5rem;
   transition: 1s linear;
   z-index: 1000;
